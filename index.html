@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Black Revolution - Official</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/circleImage.css">
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+</head>
+<body>
+    <!-- Space Background -->
+    <div class="space-bg" id="spaceBg">
+        <div class="star-field" id="starField"></div>
+        <div class="nebula nebula-1"></div>
+        <div class="nebula nebula-2"></div>
+    </div>
+    
+    <!-- Laser Grid -->
+    <div class="laser-grid"></div>
+    
+    <!-- Hologram Effect -->
+    <div class="hologram-effect"></div>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-jedi"></i>
+                        <div class="logo-glow"></div>
+                    </div>
+                    <h1 class="game-title">
+                        <span class="title-main">STAR WARS</span>
+                        <span class="title-sub">BLACK REVOLUTION</span>
+                    </h1>
+                </div>
+                <p class="game-subtitle"></p>
+                
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active" data-section="home">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                        <li><a href="#team" class="nav-link" data-section="team">
+                            <i class="fas fa-users"></i>
+                            <span>Team</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                        <li><a href="#controls" class="nav-link" data-section="controls">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Controls</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                        <li><a href="#items" class="nav-link" data-section="items">
+                            <i class="fas fa-cube"></i>
+                            <span>Items</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                        <li><a href="#cheats" class="nav-link" data-section="cheats">
+                            <i class="fas fa-code"></i>
+                            <span>Cheats</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                        <li><a href="#download" class="nav-link nav-download" data-section="download">
+                            <i class="fas fa-download"></i>
+                            <span>Download</span>
+                            <div class="nav-indicator"></div>
+                        </a></li>
+                    </ul>
+                    
+                    <div class="mobile-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="page-section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-rocket"></i> Game Introduction</h2>
+                    <p>Welcome to the ultimate Star Wars experience</p>
+                   <center>
+                    <img src="./img/Poster.png" alt="Poster" width="500px" height="500px">
+                   </center>
+                </div>
+                
+                <div class="content-card intro-card">
+                    <div class="card-header">
+                        <h3>About Star Wars Black Revolution</h3>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="card-body">
+                        <p>Welcome to <strong>Star Wars Black Revolution</strong>! This is an action-adventure game set in the Star Wars universe where you must battle through various space environments and complete exciting missions.</p>
+                        
+                        <div class="features-grid">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-space-shuttle"></i>
+                                </div>
+                                <h4>Space Combat</h4>
+                                <p>Engage in epic space battles with advanced ship controls</p>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-jedi"></i>
+                                </div>
+                                <h4>Force Powers</h4>
+                                <p>Master the Force with unique abilities and upgrades</p>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <h4>Multiple Planets</h4>
+                                <p>Explore diverse planetary systems with unique challenges</p>
+                            </div>
+                        </div>
+                        
+                        <div class="environment-section">
+                            <div class="section-header">
+                                <h3><i class="fas fa-mountain-sun"></i> Game Environment</h3>
+                            </div>
+                            <div class="environment-preview">
+                                <div class="env-image-placeholder">
+                                    <div class="env-glow"></div>
+                                    <img src="./img/GameEV.png" alt="GameEV" width="550px" height="300px">
+                                </div>
+                                <div class="env-description">
+                                    <p>Experience stunning environments from the Star Wars universe, each with unique challenges, enemies, and secrets to discover.</p>
+                                    <div class="env-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">12+</span>
+                                            <span class="stat-label">Planets</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">50+</span>
+                                            <span class="stat-label">Missions</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">100+</span>
+                                            <span class="stat-label">Weapons</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section id="team" class="page-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-users"></i> Development Team</h2>
+                    <p>The creative minds behind the revolution</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-laptop-code"></i> Core Development Team</h3>
+                    </div>
+                    <div class="card-body">                       
+                        <div class="team-grid">
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-pen-nib"></i>
+                                </div>
+                                <h4>Author</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Story & Scenario</p>
+                            </div>
+
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h4>Cerator</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Character & Environmental Animations</p>
+                            </div>
+                            
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h4>Programmer</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Game Behavior & Environment</p>
+                            </div>
+                            
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-shapes"></i>
+                                </div>
+                                <h4>Designer</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Design Game & Level</p>
+                            </div>
+
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4>Art Designer</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">UI & Environmental</p>
+                            </div>
+
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-film"></i>
+                                </div>
+                                <h4>Animation Designer</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Character & Environmental Animations</p>
+                            </div>
+                            
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-cut"></i>
+                                </div>
+                                <h4>Cut Scene Designer</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Cinematic Story Sequences</p>
+                            </div>
+                            
+                            <div class="team-member">
+                                <div class="member-icon">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <h4>Mix & Audio</h4>
+                                <p class="member-name">Amir Mohamad Nasiri</p>
+                                <p class="member-role">Sound Design & Music</p>
+                            </div>
+                        </div>
+                        
+                        <div class="special-thanks">
+                            <div class="section-header" style="color: red;">
+                                <h3><i class="fas fa-heart"></i> Special Thanks of Actors</h3>
+                            </div>
+                            <div class="thanks-grid">
+                                <div class="thankee">
+                                    <img src="./img/Milad.jpg" alt="Actor" width="200px" height="200px">
+                                    <p>Milad Karami</p>
+                                </div>
+                                <div class="thankee">
+                                    <img src="./img/Amir.jpg" alt="Actor" width="200px" height="200px">
+                                    <p>Amir Hossein Ganjur</p>
+                                </div>
+                                <div class="thankee">
+                                    <img src="./img/Shayan.jpg" alt="Actor" width="200px" height="200px">
+                                    <p>Shayan Darabian</p>
+                                </div>
+                                <div class="thankee">
+                                    <img src="./img/Sayad.jpg" alt="Actor" width="200px" height="200px">
+                                    <p>Seyyed Ali Hosseinzadeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="company-info">
+                            <div class="company-logo">
+                                <i class="fas fa-building"></i>
+                                <h3>Mc Duck Enterprises</h3>
+                            </div>
+                            <p class="copyright">Copyright © 2019-2026 Mc Duck Enterprises. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Controls Section -->
+            <section id="controls" class="page-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-gamepad"></i> Keyboard & Mouse Controls</h2>
+                    <p>Master your ship and abilities</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-header">
+                        <h3>Game Controls Reference</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="controls-table">
+                                <thead>
+                                    <tr>
+                                        <th>Key</th>
+                                        <th>Action</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><kbd>Space</kbd> or <kbd>Mouse Button 1</kbd></td>
+                                        <td>Fire</td>
+                                        <td>Primary weapon attack</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>UP Arrow</kbd> or <kbd>W</kbd></td>
+                                        <td>Forward</td>
+                                        <td>Move forward/accelerate</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>Down Arrow</kbd> or <kbd>S</kbd></td>
+                                        <td>Backward</td>
+                                        <td>Move backward/decelerate</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>Left Arrow</kbd></td>
+                                        <td>Cross Left</td>
+                                        <td>Move to left side</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>Right Arrow</kbd></td>
+                                        <td>Cross Right</td>
+                                        <td>Move to right side</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>A</kbd></td>
+                                        <td>Move Left</td>
+                                        <td>Strafe left movement</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>D</kbd></td>
+                                        <td>Move Right</td>
+                                        <td>Strafe right movement</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>Keypad Plus (+)</kbd></td>
+                                        <td>Increase Speed</td>
+                                        <td>Boost engine power</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>Keypad Minus (-)</kbd></td>
+                                        <td>Reduce Speed</td>
+                                        <td>Reduce engine power</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>G</kbd></td>
+                                        <td>Gravity</td>
+                                        <td>Toggle gravity effects</td>
+                                    </tr>
+                                    <tr>
+                                        <td><kbd>TAB</kbd></td>
+                                        <td>Cheat Panel</td>
+                                        <td>Open cheat code interface</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="controls-tips">
+                            <h4><i class="fas fa-lightbulb"></i> Pro Tips</h4>
+                            <ul>
+                                <li>Combine movement keys for diagonal movement</li>
+                                <li>Use speed controls strategically during combat</li>
+                                <li>Practice gravity manipulation in safe areas first</li>
+                                <li>Customize controls in settings for optimal play</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Items Section -->
+            <section id="items" class="page-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-cube"></i> Game Items & Power-ups</h2>
+                    <p>Collect, upgrade, and dominate</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-header">
+                        <h3>Collectible Items</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="items-table">
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Effect</th>
+                                        <th>Benefit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="item-icon health"><i class="fas fa-heart"></i></span> Health Box</td>
+                                        <td>Increases Health and Bullets</td>
+                                        <td>Restores health and ammo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="item-icon ammo"><i class="fas fa-bullseye"></i></span> Ammo Box</td>
+                                        <td>Increases Bullets</td>
+                                        <td>Refills all weapon ammunition</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="item-icon armor"><i class="fas fa-shield-alt"></i></span> Armor Box</td>
+                                        <td>Increases Armor</td>
+                                        <td>Boosts damage resistance</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="item-icon coin"><i class="fas fa-coins"></i></span> Coin</td>
+                                        <td>Increasing Score</td>
+                                        <td>Adds to total score</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="item-icon special"><i class="fas fa-star"></i></span> Special Box</td>
+                                        <td>Special Score Increase</td>
+                                        <td>Significant bonus points</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="items-strategy">
+                            <h4><i class="fas fa-chess-board"></i> Item Strategy Guide</h4>
+                            <div class="strategy-grid">
+                                <div class="strategy-tip">
+                                    <h5>Priority Collection</h5>
+                                    <p>Always prioritize health and armor items during combat</p>
+                                </div>
+                                <div class="strategy-tip">
+                                    <h5>Resource Management</h5>
+                                    <p>Save special items for boss encounters</p>
+                                </div>
+                                <div class="strategy-tip">
+                                    <h5>Combo Potential</h5>
+                                    <p>Chain item collection for multiplier bonuses</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cheats Section -->
+            <section id="cheats" class="page-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-code"></i> Cheat Codes</h2>
+                    <p>Unlock hidden potential</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-header">
+                        <h3>Available Cheat Codes</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="cheats-table">
+                                <thead>
+                                    <tr>
+                                        <th>Code</th>
+                                        <th>Effect</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code class="cheat-code">dog</code></td>
+                                        <td>Infinite Health and Bullets</td>
+                                        <td>God mode - unlimited resources</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="cheat-code">die</code></td>
+                                        <td>Destroy All Enemies</td>
+                                        <td>Instantly eliminates all enemies</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="cheat-code">coin</code></td>
+                                        <td>Increasing Score</td>
+                                        <td>Adds 10,000 points to score</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="cheat-instructions">
+                            <h4><i class="fas fa-terminal"></i> How to Use Cheats</h4>
+                            <ol>
+                                <li>Press <kbd>TAB</kbd> during gameplay to open cheat panel</li>
+                                <li>Type the cheat code exactly as shown (case-sensitive)</li>
+                                <li>Press <kbd>ENTER</kbd> to activate the cheat</li>
+                                <li>Press <kbd>TAB</kbd> again to close the panel</li>
+                            </ol>
+                            
+                            <div class="cheat-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p><strong>Warning:</strong> Using cheats may disable achievements and save progression. Use at your own risk!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Download Section -->
+            <section id="download" class="page-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-download"></i> Download Game</h2>
+                    <p>Join the revolution today</p>
+                </div>
+                
+                <div class="content-card download-card">
+                    <div class="card-header">
+                        <h3>Get Star Wars Black Revolution</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="download-hero">
+                            <div class="hero-content">
+                                <h3>Ready for Adventure?</h3>
+                                <p>Download now and join millions of players in the ultimate Star Wars experience!</p>
+                                
+                                <div class="download-stats">
+                                    <div class="stat">
+                                        <div class="stat-value">2.1M+</div>
+                                        <div class="stat-label">Downloads</div>
+                                    </div>
+                                    <div class="stat">
+                                        <div class="stat-value">94%</div>
+                                        <div class="stat-label">Positive Reviews</div>
+                                    </div>
+                                    <div class="stat">
+                                        <div class="stat-value">4.8</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="hero-visual">
+                                <div class="starship-animation">
+                                    <i class="fas fa-space-shuttle"></i>
+                                    <div class="engine-trail"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="system-requirements">
+                            <h4><i class="fas fa-desktop"></i> System Requirements</h4>
+                            <div class="requirements-grid">
+                                <div class="req-minimum">
+                                    <h5>Minimum</h5>
+                                    <ul>
+                                        <li><strong>OS :</strong> Windows 7</li>
+                                        <li><strong>CPU :</strong> Intel i3-7700</li>
+                                        <li><strong>RAM :</strong> 4 GB</li>
+                                        <li><strong>GPU :</strong> GT 720</li>
+                                        <li><strong>Storage :</strong> 15 GB available</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="req-recommended">
+                                    <h5>Recommended</h5>
+                                    <ul>
+                                        <li><strong>OS :</strong> Windows 10/11 64-bit</li>
+                                        <li><strong>CPU :</strong> Intel i7-6700 / AMD Ryzen 5 1600</li>
+                                        <li><strong>RAM :</strong> 16 GB</li>
+                                        <li><strong>GPU :</strong> GTX 1060 / RX 580</li>
+                                        <li><strong>Storage :</strong> 20 GB SSD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="download-options">
+                            <h4><i class="fas fa-download"></i> Download Options</h4>
+                            <div class="platform-grid">
+                                <div class="platform-option" data-platform="windows">
+                                    <div class="platform-icon">
+                                        <i class="fab fa-windows"></i>
+                                    </div>
+                                    <h5>Windows</h5>
+                                    <p>Setup Installer</p>
+                                    <p>Star Wars Black Revolution.rar</p>
+                                    <div class="file-size">420 MB</div>
+                                    <a href="https://drive.usercontent.google.com/download?id=1fxrjsiUzPP9MSNFc6Dbu_Js5NjTS6rbt&export=download&authuser=0&confirm=t&uuid=c8e96c5a-683a-47b6-852d-3a5ee1e1997a&at=APcXIO30H6BPPQR5RLxesRFSGYw_%3A1770854478309">
+                                        <button class="download-btn" onclick="StartingDownloadNotifcation()">
+                                            <i class="fas fa-download"></i>
+                                            Download
+                                        </button>
+                                    </a>
+                                    <!-- <button class="download-btn" onclick="startDownload('windows')">
+                                        <i class="fas fa-download"></i>
+                                        Download
+                                    </button> -->
+                                </div>
+                                
+                                <!-- <div class="platform-option" data-platform="mac">
+                                    <div class="platform-icon">
+                                        <i class="fab fa-apple"></i>
+                                    </div>
+                                    <h5>macOS</h5>
+                                    <p>10.14+ Required</p>
+                                    <div class="file-size">9.1 GB</div>
+                                    <button class="download-btn" onclick="startDownload('mac')">
+                                        <i class="fas fa-download"></i>
+                                        Download
+                                    </button>
+                                </div>
+                                
+                                <div class="platform-option" data-platform="linux">
+                                    <div class="platform-icon">
+                                        <i class="fab fa-linux"></i>
+                                    </div>
+                                    <h5>Linux</h5>
+                                    <p>.deb & .rpm packages</p>
+                                    <div class="file-size">8.2 GB</div>
+                                    <button class="download-btn" onclick="startDownload('linux')">
+                                        <i class="fas fa-download"></i>
+                                        Download
+                                    </button>
+                                </div> -->
+                            </div>
+                        </div>
+                        
+                        <div class="installation-guide">
+                            <h4><i class="fas fa-info-circle"></i> Installation Guide</h4>
+                            <div class="guide-steps">
+                                <div class="step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Download Installer</h5>
+                                        <p>Run the downloaded executable file</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Follow Setup</h5>
+                                        <p>Choose installation directory</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Complete Installation</h5>
+                                        <p>Wait for files to extract</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h5>Launch Game</h5>
+                                        <p>Start playing from desktop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-jedi"></i>
+                    <span>Mc Duck Enterprises</span>
+                </div>
+                
+                <div class="footer-info">
+                    <p>Copyright © 2019-2026 Mc Duck Enterprises. All rights reserved.</p>
+                    <p class="disclaimer">This website is based on the Star Wars Black Revolution.</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Download Modal -->
+    <div class="download-modal" id="downloadModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-rocket"></i> Downloading...</h3>
+                <button class="modal-close" onclick="closeDownloadModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="download-progress">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text" id="progressText">0%</div>
+                    </div>
+                    
+                    <div class="download-info">
+                        <div class="info-item">
+                            <span class="label">Platform:</span>
+                            <span class="value" id="platformName">Windows</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Size:</span>
+                            <span class="value" id="fileSize">8.4 GB</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Speed:</span>
+                            <span class="value" id="downloadSpeed">-- MB/s</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Time Left:</span>
+                            <span class="value" id="timeLeft">--</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-actions">
+                    <button class="btn-pause" onclick="pauseDownload()">
+                        <i class="fas fa-pause"></i>
+                        Pause
+                    </button>
+                    <button class="btn-cancel" onclick="cancelDownload()">
+                        <i class="fas fa-times"></i>
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/stars.js"></script>
+    <script src="./js/download.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
